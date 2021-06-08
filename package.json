@@ -63,8 +63,8 @@
   "homepage": "./",
   "main": "./public/electron.js",
   "build": {
-    "appId": "com.electron.my_app",
-    "productName": "My App",
+    "appId": "com.electron.check_todo",
+    "productName": "Check Todo",
     "files": [
       "build/**/*",
       "node_modules/**/*"
@@ -79,7 +79,7 @@
     },
     "win": {
       "target": "nsis",
-      "icon": "./public/logo512.png"
+      "icon": "./public/app.jpg"
     },
     "linux": {
       "target": "deb",
