@@ -1,0 +1,22 @@
+.main {
+  width: 100%;
+  height: 100vh;
+}
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.video {
+  object-fit: fill;
+}

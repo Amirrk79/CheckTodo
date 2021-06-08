@@ -2,6 +2,11 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Amir hossein kazemi seresht",
+    "email": "AmirHosseinKazemiSeresht@aol.com",
+    "github": "https://github.com/Amirrk79"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -10,7 +15,13 @@
     "electron-is-dev": "^1.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "redux": "^4.1.0",
+    "short-id": "^0.1.0-1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

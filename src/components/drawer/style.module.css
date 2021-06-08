@@ -1,0 +1,80 @@
+.drawer {
+  width: 300px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  overflow-x: hidden;
+  background-color: #23242c;
+  position: fixed;
+  z-index: 100;
+}
+.drawerHeader {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.userInfo {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  color: #f6f4fe;
+}
+.navLink {
+  text-decoration: none;
+  color: #767780;
+  width: 80%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.drawerItem {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navLink:hover {
+  background-color: #1b1a21;
+}
+
+.drawerIcons {
+}
+
+.headerIcon {
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+
+.activeIconDiv {
+  margin-right: 15px;
+  margin-left: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #1360ac;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.passiveIconDiv {
+  margin-right: 15px;
+  margin-left: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #1b1a21;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

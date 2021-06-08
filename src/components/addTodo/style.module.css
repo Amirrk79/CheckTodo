@@ -1,0 +1,128 @@
+.addTodoDiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.addLabels {
+  font-size: 20px;
+}
+
+.addInput {
+  width: 90%;
+  height: 50px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  padding-left: 10px;
+  border-bottom: 2px solid #e7e7e7;
+  margin-bottom: 20px;
+}
+.textArea {
+  width: 100%;
+  height: 50px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 10px;
+  border-bottom: 2px solid #e7e7e7;
+  margin-bottom: 20px;
+}
+.textArea:focus {
+  outline: none;
+  border-bottom: 2px solid #1360ac;
+}
+.addInput:focus {
+  outline: none;
+  border-bottom: 2px solid #1360ac;
+}
+
+.timePicker {
+  width: 30px;
+  height: 50px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  padding-left: 7px;
+  border-bottom: 2px solid #e7e7e7;
+}
+.timePicker:focus {
+  outline: none;
+  border-bottom: 2px solid #1360ac;
+}
+
+.timePickerDiv {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+}
+
+.formBtnsDiv {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-top: 30px;
+  height: 40px;
+}
+
+.discardBtn {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(251, 64, 64);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  font-size: 20px;
+  color: #ffffff;
+  margin-right: 20px;
+}
+.discardBtn:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.saveBtn {
+  width: 100px;
+  height: 40px;
+  background-color: #58b747;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.saveBtn:hover {
+  background-color: #26ff00;
+}
+
+.errors {
+  color: red;
+  font-size: 15px;
+}
+.selectDivs {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+}
+
+.selects {
+  background-color: #ffffff;
+  border: 1px solid #e7e7e7;
+  outline: none;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.selects:hover {
+  background-color: #f6f6f6;
+}
